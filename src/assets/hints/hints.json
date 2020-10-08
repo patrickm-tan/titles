@@ -1,0 +1,173 @@
+{
+    "categories": [
+        {
+            "title": "League of Legends Champions",
+            "hints": [
+                "Ahri",
+                "Akali",
+                "Alistar",
+                "Amumu",
+                "Anivia",
+                "Annie",
+                "Ashe",
+                "Blitzcrank",
+                "Brand",
+                "Caitlyn",
+                "Cassiopeia",
+                "Cho'Gath",
+                "Corki",
+                "Dr. Mundo",
+                "Evelynn",
+                "Ezreal",
+                "Fiddlesticks",
+                "Fizz",
+                "Galio",
+                "Gangplank",
+                "Garen",
+                "Gragas",
+                "Graves",
+                "Heimerdinger",
+                "Irelia",
+                "Janna",
+                "Jarvan IV",
+                "Jax",
+                "Karma",
+                "Karthus",
+                "Kassadin",
+                "Katarina",
+                "Kayle",
+                "Kennen",
+                "Kog'Maw",
+                "LeBlanc",
+                "Lee Sin",
+                "Leona",
+                "Lux",
+                "Malphite",
+                "Malzahar",
+                "Maokai",
+                "Master Yi",
+                "Miss Fortune",
+                "Mordekaiser",
+                "Morgana",
+                "Nasus",
+                "Nidalee",
+                "Nocturne",
+                "Nunu",
+                "Olaf",
+                "Orianna",
+                "Pantheon",
+                "Poppy",
+                "Rammus",
+                "Renekton",
+                "Riven",
+                "Rumble",
+                "Ryze",
+                "Sejuani",
+                "Shaco",
+                "Shen",
+                "Shyvana",
+                "Singed",
+                "Sion",
+                "Sivir",
+                "Skarner",
+                "Sona",
+                "Soraka",
+                "Swain",
+                "Talon",
+                "Taric",
+                "Teemo",
+                "Tristana",
+                "Trundle",
+                "Tryndamere",
+                "Twisted Fate",
+                "Twitch",
+                "Udyr",
+                "Urgot",
+                "Vayne",
+                "Veigar",
+                "Viktor",
+                "Vladimir",
+                "Volibear",
+                "Warwick",
+                "Wukong",
+                "Xerath",
+                "Xin Zhao",
+                "Yorick",
+                "Zilean"
+            ]
+        },
+        {
+            "title": "Movies",
+            "hints": [
+                "Movie 1",
+                "Movie 2",
+                "Movie 3"
+            ]
+        },
+        {
+            "title": "Animals",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "TV Shows",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "70,80,90's Hits",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "2000's Hits",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "Today's Hit Music",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "Video Games",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "Celebrities",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        },
+        {
+            "title": "NBA Players",
+            "hints": [
+                "Animal 1",
+                "Animal 2",
+                "Animal 3"
+            ]
+        }
+    ]
+    
+}
