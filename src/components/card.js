@@ -1,39 +1,75 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet, Image, Button, TouchableHighlightBase, TouchableHighlight } from "react-native";
+import { LinearGradient } from 'expo-linear-gradient';
+
+import {COLORS, ICONS} from '../utilities/colors.js'
+
+function getColor(props) {
+    if (props == 'GAMES') {
+        return COLORS.GAMES
+    }
+    else if (props == 'MOVIES') {
+        return COLORS.MOVIES
+    }
+    else {
+        return COLORS.OTHER
+    }
+}
+
+function getIcon(props) {
+    return "../../assets/icons/" + props
+}
 
 const Card = (props) => {
+    const icon = ICONS[props.icon]
     return (
-        <View
-            style={{
-                flex: 1,
-                alignItems: "center",
-                padding: 25
-            }}>
-            <View
-                style={{
-                height: 100,
-                padding: 20,
-                alignItems: "center",
-                backgroundColor: "#5c5a5a",
-                borderRadius: 10,
-                width: 500,
-                height: 150,
-                }}
-            >
-                <View style={{
-                    backgroundColor: "#ffdbd9",
-                    borderRadius: 10,
-                    position: "absolute",
-                    width: 150,
-                    alignItems: "center",
-                    padding: 5,
-                    top: -15
-                    }}>
-                    <Text>{props.category}</Text>
-                </View>          
-            </View>
+        <View style={styles.container}>
+            <LinearGradient
+                colors={getColor(props.category)}
+                style={styles.card}>
+                    <View style={{flex:2, alignItems: 'left', justifyContent: 'center'}}>
+                        <Text style={styles.category}>
+                            {props.category}
+                        </Text>
+                        <Text style={styles.topic}>
+                            {props.title}
+                        </Text>    
+                    </View>
+                    <View>
+                        <Image style={styles.tinyLogo} source={icon}/>
+                    </View>      
+            </LinearGradient>
         </View>
     );
   };
   
+const styles = StyleSheet.create({
+    container: {
+        height: 80,
+        flexGrow: 1,
+        margin: 10,
+    },
+    card: {
+        flexDirection: 'row',
+        maxWidth: 1080,
+        padding: 15,
+        borderRadius: 5,
+    },
+    category: {
+        fontSize: 10,
+        color: '#000',
+    },
+    topic: {
+        fontFamily: 'Helvetica Neue',
+        fontSize: 18,
+        marginRight: 75,
+        fontWeight: 'bold',
+        color: '#000',
+    },
+    tinyLogo: {
+        width: 50,
+        height: 50,
+    }
+})
+
   export default Card;
