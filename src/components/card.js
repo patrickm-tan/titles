@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Image, Button, TouchableHighlightBase, TouchableHighlight } from "react-native";
+import { View, Text, StyleSheet, Image, Button, TouchableHighlightBase, TouchableHighlight, ImageBackground } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
 
 import {COLORS, ICONS} from '../utilities/colors.js'
@@ -37,7 +37,8 @@ const Card = (props) => {
                     </View>
                     <View>
                         <Image style={styles.tinyLogo} source={icon}/>
-                    </View>      
+                    </View> 
+                <ImageBackground source={require("../../assets/games-bg.png")} resizeMode="repeat" style={styles.image}/>
             </LinearGradient>
         </View>
     );
@@ -50,10 +51,15 @@ const styles = StyleSheet.create({
         margin: 10,
     },
     card: {
-        flexDirection: 'row',
+        position: "absolute",
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0,
         maxWidth: 1080,
         padding: 15,
         borderRadius: 5,
+        flexDirection: "row"
     },
     category: {
         fontSize: 10,
@@ -69,6 +75,15 @@ const styles = StyleSheet.create({
     tinyLogo: {
         width: 50,
         height: 50,
+    },
+    image: {
+        flex: 1,
+        position: "absolute",
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0,
+        opacity: .05,
     }
 })
 

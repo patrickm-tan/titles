@@ -3,7 +3,8 @@ export const DATA = [
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
       category: 'GAMES',
       title: 'LEAGUE OF LEGENDS CHAMPIONS',
-      icon: 'league'
+      icon: 'league',
+      hints: ["Akali", "Ahri", "Ammumu", "Jayce", "Master Yi", "Volibear"]
     },
     {
       id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
@@ -42,4 +43,5 @@ export const DATA = [
       icon: 'league'
     },
   ];
+  
   
